@@ -46,7 +46,7 @@ class ViewController: UITableViewController, SwiftTableViewCellDelegate {
         print("Heart", sender, tappedIndexPath)
         
         // "Love" this item
-        //        items[tappedIndexPath.row].love()
+        //items[tappedIndexPath.row].love()
     }
     
     func swiftyTableViewCellDidTapTrash(_ sender: TableViewCell) {
