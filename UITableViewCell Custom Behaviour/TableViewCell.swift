@@ -13,7 +13,6 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var trashButton: UIButton!
     @IBOutlet weak var heartButton: UIButton!
     
-    
     weak var delegate : SwiftTableViewCellDelegate?
     
     @IBAction func heartTapeed(_sender: UIButton){
